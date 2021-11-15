@@ -1,0 +1,87 @@
+nav {
+  display: flex;
+  margin-bottom: 100px;
+  /* position: sticky; */
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+  
+}
+
+nav a {
+  margin: auto;
+  border: 2px solid blue;
+  padding: 8px;
+  text-decoration: none;
+}
+.para {
+  width: 70%;
+  min-height: 200px;
+  min-width: 200px;
+  border: 2px black solid;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(206, 176, 235);
+  border-radius: 30px;
+}
+section h1 {
+  text-align: left;
+  margin: 20px;
+}
+.flex {
+  display: flex;
+  margin: auto;
+  min-height: 400px;
+  width: 80%;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+
+.item {
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+}
+
+.item img{
+     margin: auto;
+    display: flex;
+   width: 120px;
+   height: 120px;
+   margin-top: 50px;
+   border-radius: 50%;
+   border:2px solid;
+}
+
+.one{
+    background-color: rgb(238, 238, 91);
+    border-radius: 20px;
+}
+.two{
+    background-color: rgb(91, 199, 91);
+     border-radius: 20px;
+}
+.three{
+    background-color: rgb(153, 143, 143);
+     border-radius: 20px;
+}
+.item p{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size:2rem;
+    text-shadow: 5px 5px 5px rgb(218, 40, 40);
+}
+.item button{
+    display: flex;
+    margin: auto;
+    
+}
+button:hover{
+    text-decoration: none;
+    background-color: yellow;
+    font-size: 1rem;
+
+}
