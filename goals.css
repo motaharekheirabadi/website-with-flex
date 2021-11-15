@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  margin-bottom: 100px;
+  /* position: sticky; */
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+  
+}
+
+nav a {
+  margin: auto;
+  border: 2px solid blue;
+  padding: 8px;
+  text-decoration: none;
+}
