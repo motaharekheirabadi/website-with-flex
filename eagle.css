@@ -59,7 +59,7 @@ section h1 {
   margin-top: 50px;
   font-weight: bold;
   font-size: 2rem;
-  text-shadow: 5px 5px 5px rgb(218, 40, 40);
+  text-shadow: 5px 5px 5px white;
 }
 .item button {
   display: flex;
@@ -87,3 +87,4 @@ button:hover {
 section h1 {
   text-align: left;
 }
+
