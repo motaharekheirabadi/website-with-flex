@@ -27,18 +27,21 @@ nav a {
 }
 
 .item {
-  width: 200px;
-  height: 350px;
+  width: 160px;
+  height: 280px;
   margin: 20px;
   flex-wrap: wrap;
+  background-color: #7bed9f;
+  border-radius: 20px;
+  margin-bottom: 60px;
 }
 
 .item img{
      margin: auto;
     display: flex;
-   width: 120px;
-   height: 120px;
-   margin-top: 50px;
+   width: 100px;
+   height: 100px;
+   margin-top: 20px;
    border-radius: 50%;
    border:2px solid;
   
@@ -46,7 +49,7 @@ nav a {
 
 .item p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: bold;
     font-size:2rem;
     text-shadow: 5px 5px 5px rgb(218, 40, 40);
@@ -62,8 +65,35 @@ button:hover{
     font-size: 1rem;
 
 }
+.fly{
+  width: 70%;
+  min-height: 200px;
+  min-width: 270px;
+  margin:auto;
+  text-align: left;
+  padding: 20px;
+  border: 2px black solid;
+  border-radius: 20px;
+  background-color: rgb(206, 176, 235);
+  flex-wrap: wrap;
+  
 
-.one{
-    background-color: rgb(91, 199, 91);
-     border-radius: 20px;
+}
+.fly1{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  border-left: black 3px solid;
+  margin-left: 150px;
+  /* min-width: 100px; */
+  /* min-height: 100px; */
+}
+.top{
+display:flex;
+text-align: start;
+align-items: center;
+
+/* margin-left: 50px; */
+/* margin-top: 50px; */
+/* margin-bottom: 50px; */
 }
