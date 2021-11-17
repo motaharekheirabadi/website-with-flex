@@ -7,9 +7,14 @@ nav {
 
 nav a {
   margin: auto;
-  border: 2px solid blue;
+  border: 2px solid rgb(56, 4, 56);
   padding: 8px;
   text-decoration: none;
+}
+.body-back {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Light-Pink-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .flex {
@@ -27,7 +32,7 @@ nav a {
   height: 280px;
   margin: 20px;
   flex-wrap: wrap;
-  background-color: #7bed9f;
+  background-color: rgb(163, 158, 158);
   border-radius: 20px;
   margin-bottom: 60px;
 }
@@ -67,7 +72,7 @@ button:hover {
   padding: 20px;
   border: 2px black solid;
   border-radius: 20px;
-  background-color: rgb(206, 176, 235);
+  background-color: rgb(218, 139, 241);
   flex-wrap: wrap;
 }
 .fly1 {
@@ -81,4 +86,23 @@ button:hover {
   display: flex;
   text-align: start;
   align-items: center;
+}
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 150px;
+  align-items: center;
+  justify-content:flex-end;
+  font-size: 40px;
+}
+footer span {
+  font-size: 10px;
+}
+footer span a {
+  color: black;
+  text-decoration: none;
+}
+footer i:hover {
+  font-size: 50px;
 }
