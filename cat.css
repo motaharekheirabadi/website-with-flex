@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,19 +6,26 @@
 nav {
   display: flex;
   margin-bottom: 100px;
-  /* position: sticky; */
   margin-top: 50px;
   flex-wrap: wrap;
-
-  
+}
+.body-back {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Light-Pink-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav a {
   margin: auto;
-  border: 2px solid blue;
+  border: 2px solid rgb(56, 4, 56);
   padding: 8px;
   text-decoration: none;
 }
+/* header{
+  position:sticky;
+  top: 0;
+  height: 60px;
+} */
 
 .flex {
   display: flex;
@@ -35,11 +42,10 @@ nav a {
   height: 300px;
   margin: 20px;
   flex-wrap: wrap;
-  background-color:rgb(153, 143, 143);
+  background-color: rgb(230, 106, 203);
   border-radius: 20px;
   margin-bottom: 60px;
 }
-
 
 .item img {
   margin: auto;
@@ -59,13 +65,41 @@ nav a {
   text-shadow: 5px 5px 5px white;
 }
 
-footer{
-  background-color:rgb(225, 190, 231) ;
-  height: 150px;
-  margin-top: 40px;
+table,
+th,
+td {
+  border: 3px solid black;
+  margin: auto;
 }
 
-.tbl{
-  border: 3px solid black;
-  margin:auto;
+table {
+  text-align: center;
+  min-width: 50%;
+}
+
+th {
+  border: none;
+}
+tr {
+  height: 40px;
+}
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+}
+footer span {
+  font-size: 20px;
+}
+footer span a {
+  color: black;
+  text-decoration: none;
+}
+footer i:hover {
+  font-size: 50px;
 }

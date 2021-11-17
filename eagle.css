@@ -7,9 +7,14 @@ nav {
 
 nav a {
   margin: auto;
-  border: 2px solid blue;
+  border: 2px solid rgb(56, 4, 56);
   padding: 8px;
   text-decoration: none;
+}
+.body-back {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Light-Pink-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .para {
   width: 70%;
@@ -40,7 +45,7 @@ section h1 {
   height: 350px;
   margin: 20px;
   flex-wrap: wrap;
-  background-color: rgb(255, 167, 38);
+  background-color: #8c51da;
   border-radius: 20px;
 }
 
@@ -80,11 +85,29 @@ button:hover {
   margin: auto;
   flex-direction: column;
   padding: 15px;
-  background-color: rgb(206, 176, 235);
+  background-color: rgb(218, 139, 241);
   margin-top: 65px;
   border-radius: 35px;
 }
 section h1 {
   text-align: left;
 }
-
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+}
+footer span {
+  font-size: 20px;
+}
+footer span a {
+  color: black;
+  text-decoration: none;
+}
+footer i:hover {
+  font-size: 50px;
+}
